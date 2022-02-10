@@ -1,0 +1,70 @@
+
+.city{
+position: absolute;
+top: 207px;
+background-repeat: repeat-x;
+background-size: cover;
+animation: city 3s linear infinite;
+}
+.road{
+    position: absolute;
+    top: 450px;
+    background-repeat: repeat-x;
+     background-size: cover;
+     animation: road 3s linear infinite;
+    }
+.car{
+    position: absolute;
+    top: 370px;
+    left: 400px;
+    background-size: cover;
+}
+.w1{
+position: absolute;
+top: 460px;
+left: 437px;
+background-repeat: repeat-x;
+background-size: cover;
+animation: wheel 3s linear infinite;
+}
+.w2{
+    position: absolute;
+    top: 460px;
+    left: 670px;
+    background-repeat: repeat-x;
+    background-size: cover;
+    animation: wheel 3s linear infinite;
+    }
+.sun{
+position: absolute;
+top: 80px;
+right: 60px;
+background-size: cover;
+animation: sun 6s linear infinite;
+}
+.h{
+position: absolute;
+top: 0px;
+left: 400px;
+font-size:40px;
+
+}
+    @keyframes city{
+        100%{
+            transform: translateX(-200px);
+        }
+    }
+    @keyframes road {
+        100%{
+            transform: translateX(-200px);
+        }
+    }
+    @keyframes wheel{
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes sun{
+        0%{transform: translateX(-50px);}
+        100%{transform: translateX(-300px);}
+    }
