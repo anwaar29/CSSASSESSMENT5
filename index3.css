@@ -23,6 +23,7 @@ animation: city 3s linear infinite;
     top: 370px;
     left: 400px;
     background-size: cover;
+    overflow-x:hidden;
 }
 .w1{
 position: absolute;
