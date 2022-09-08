@@ -10,6 +10,7 @@ top: 207px;
 background-repeat: repeat-x;
 background-size: cover;
 animation: city 3s linear infinite;
+ overflow-x:hidden
 }
 .road{
     position: absolute;
